@@ -1,5 +1,6 @@
 A new Rail-to-Rail constant gm input stage using feedforward canceling technique
 
+开源协议：Apache License 2.0 
 ## 采用前馈抵消技术改出来的一个新结构
 论文Constant-gm Constant-Slew-Rate High-Bandwidth Low-Voltage Rail-to-Rail CMOS Input Stage for VLSI Cell Libraries首次提出了采用前馈抵消（feedforward canceling）技术实现跨导恒定的电路，但是该电路需要采用源随器实现浮动电压源来实现运放的轨到轨操作，而且该运放的地轨不一定能够达到GND，而电源轨却能超出VDD。其电路原理图如下：
 ![image](https://github.com/Meng-StarOcean/R2R_Constant_gm_Input_Stage/assets/77794246/59348820-b286-400c-a10f-cac8fdd96ebe)
